@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>zkMessage RSS Feed</title>
+    <link>https://explorer.zksync.io/address/0x5d89444f84d544deBbD13D672f314A4DfaE3f77C#events</link>
+    <description>View events from zkMessage contract on zkSync</description>
+    <lastBuildDate>Thu, 31 Oct 2024 15:00:40 GMT</lastBuildDate>
+    
+    <item>
+      <title>Zeek</title>
+      <link>https://explorer.zksync.io/tx/0xab9c64f5665c69bd4eb247b0112655aa88f1a87a2a0b28583490022df408dd33</link> <!-- Adjust link as needed -->
+      <description>Zeek was here!</description>
+      <pubDate>Thu, 31 Oct 2024 15:00:40 GMT</pubDate>
+    </item>
+  
+    <item>
+      <title>Admin</title>
+      <link>https://explorer.zksync.io/tx/0xb1fad6761db436aa04e8f07fd08f6b92bae55e1d57ba9cf2f4943f1f696c8331</link> <!-- Adjust link as needed -->
+      <description>ZK is the Endgame</description>
+      <pubDate>Thu, 31 Oct 2024 15:00:40 GMT</pubDate>
+    </item>
+  
+    <item>
+      <title>Zeek</title>
+      <link>https://explorer.zksync.io/tx/0x818838775017c103fdd4f617802e7dae79e181b045169ea508f25a37dd460de3</link> <!-- Adjust link as needed -->
+      <description>Messenger role assigned.</description>
+      <pubDate>Thu, 31 Oct 2024 15:00:40 GMT</pubDate>
+    </item>
+  
+  </channel>
+</rss>
