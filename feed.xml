@@ -5,34 +5,34 @@
     <title>zkMessage RSS Feed</title>
     <link>https://explorer.zksync.io/address/0x5d89444f84d544deBbD13D672f314A4DfaE3f77C#events</link>
     <description>View events from zkMessage contract on zkSync</description>
-    <lastBuildDate>Tue, 05 Nov 2024 15:51:04 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 05 Nov 2024 16:24:17 GMT</lastBuildDate>
     
     <item>
       <title>Admin</title>
       <link>https://explorer.zksync.io/tx/0x2480ea9e50064433a55d0fe6bdafbf279ab15cefa7ab3ab03504275cb64938a7</link>
       <description>RSS is a Web content syndication format.</description>
-      <pubDate>Tue, 05 Nov 2024 15:51:04 GMT</pubDate>
+      <pubDate>Tue, 05 Nov 2024 16:24:17 GMT</pubDate>
     </item>
   
     <item>
       <title>Zeek</title>
       <link>https://explorer.zksync.io/tx/0xab9c64f5665c69bd4eb247b0112655aa88f1a87a2a0b28583490022df408dd33</link>
       <description>Zeek was here!</description>
-      <pubDate>Tue, 05 Nov 2024 15:51:04 GMT</pubDate>
+      <pubDate>Tue, 05 Nov 2024 16:24:17 GMT</pubDate>
     </item>
   
     <item>
       <title>Admin</title>
       <link>https://explorer.zksync.io/tx/0xb1fad6761db436aa04e8f07fd08f6b92bae55e1d57ba9cf2f4943f1f696c8331</link>
       <description>ZK is the Endgame</description>
-      <pubDate>Tue, 05 Nov 2024 15:51:04 GMT</pubDate>
+      <pubDate>Tue, 05 Nov 2024 16:24:17 GMT</pubDate>
     </item>
   
     <item>
       <title>Zeek</title>
       <link>https://explorer.zksync.io/tx/0x818838775017c103fdd4f617802e7dae79e181b045169ea508f25a37dd460de3</link>
       <description>Messenger role assigned.</description>
-      <pubDate>Tue, 05 Nov 2024 15:51:04 GMT</pubDate>
+      <pubDate>Tue, 05 Nov 2024 16:24:17 GMT</pubDate>
     </item>
   
   </channel>
