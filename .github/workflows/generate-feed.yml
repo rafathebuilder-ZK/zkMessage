@@ -20,8 +20,14 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+      - name: List files for debugging
+        run: |
+          echo "Current directory: $(pwd)"
+          echo "Listing files:"
+          ls -R
+
       - name: Run generateFeed script
-        run: node ../RSS_Website/generateFeed.js  # Adjust the path as necessary
+        run: node RSS_Website/generateFeed.js  # Correct path to the script
 
       - name: Commit and push changes
         run: |
