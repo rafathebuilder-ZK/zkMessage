@@ -50,6 +50,7 @@ async function generateFeed() {
   `).join('');
 
   const rssFeed = `<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="feed.xsl"?>
 <rss version="2.0">
   <channel>
     <title>zkMessage RSS Feed</title>
@@ -63,10 +64,5 @@ async function generateFeed() {
   fs.writeFileSync('feed.xml', rssFeed);
   console.log('RSS feed generated successfully!');
 }
-// Check for new items every 10 minutes
-setInterval(async () => {
-  console.log('Checking for new items...');
-  await generateFeed(); // This calls the generateFeed function every 10 minutes
-}, 600000); // 600,000 milliseconds = 10 minutes
 
 generateFeed();
