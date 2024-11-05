@@ -32,6 +32,9 @@ jobs:
       - name: Check file permissions
         run: ls -l RSS_Website/feed.xml
        
+      - name: Check diff for changes
+        run: git diff --stat
+        
       - name: Commit and push changes
         run: |
           git config --local user.name "github-actions"
