@@ -29,6 +29,9 @@ jobs:
       - name: Check Git status
         run: git status
       
+      - name: Check file permissions
+       run: ls -l RSS_Website/feed.xml
+       
       - name: Commit and push changes
         run: |
           git config --local user.name "github-actions"
