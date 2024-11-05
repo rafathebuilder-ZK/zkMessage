@@ -30,7 +30,7 @@ jobs:
         run: node RSS_Website/generateFeed.js  # Correct path to the script
 
       - name: Check Git status
-      - run: git status
+        run: git status
       
       - name: Commit and push changes
         run: |
