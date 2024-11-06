@@ -25,31 +25,38 @@ async function fetchData() {
 
   try {
     const response = await axios.post(GRAPHQL_ENDPOINT, { query });
+    console.log('API Response:', response.data); // Log the full API response
     return {
       messageSents: response.data.data.messageSents,
       messengerApproveds: response.data.data.messengerApproveds,
     };
   } catch (error) {
-    console.error('Error fetching data:', error);
+    console.error('Error fetching data:', error.message); // Log the error message
   }
 }
 
 async function generateFeed() {
   const { messageSents, messengerApproveds } = await fetchData();
 
+  // Log the fetched data
+  console.log('Fetched messageSents:', messageSents);
+  console.log('Fetched messengerApproveds:', messengerApproveds);
+
   // Combine both messageSents and messengerApproveds into a single array
   const items = [...messageSents, ...messengerApproveds];
+  console.log('Combined items:', items); // Log the combined items
 
   const feedItems = items.map(item => `
     <item>
       <title>${item.tag}</title>
-      <link>https://explorer.zksync.io/tx/${item.transactionHash}</link> <!-- Adjust link as needed -->
+      <link>https://explorer.zksync.io/tx/${item.transactionHash}</link>
       <description>${item.message}</description>
       <pubDate>${new Date().toUTCString()}</pubDate>
     </item>
   `).join('');
 
   const rssFeed = `<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="feed.xsl"?>
 <rss version="2.0">
   <channel>
     <title>zkMessage RSS Feed</title>
@@ -60,8 +67,12 @@ async function generateFeed() {
   </channel>
 </rss>`;
 
+  // Log the RSS feed content before writing
+  console.log('RSS Feed Content:', rssFeed);
+
   fs.writeFileSync('feed.xml', rssFeed);
   console.log('RSS feed generated successfully!');
 }
 
+// Start the feed generation
 generateFeed();
