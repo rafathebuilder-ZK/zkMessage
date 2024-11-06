@@ -24,13 +24,13 @@ jobs:
           ls -R
 
       - name: Run generateFeed script
-        run: node RSS_Website/generateFeed.js  # Correct path to the script
+        run: node RSS_Website/generateFeed2.js  # Correct path to the script
 
       - name: Check Git status
         run: git status
       
       - name: Check file permissions
-        run: ls -l RSS_Website/feed.xml
+        run: ls -l RSS_Website/feed2.xml
        
       - name: Check diff for changes
         run: git diff --stat
