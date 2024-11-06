@@ -1,4 +1,4 @@
-name: Generate RSS Feed
+name: Generate RSS Feed Version RSS_Website
 
 on:
   schedule:
