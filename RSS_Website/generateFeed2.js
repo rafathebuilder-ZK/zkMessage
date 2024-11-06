@@ -70,7 +70,7 @@ async function generateFeed() {
   // Log the RSS feed content before writing
   console.log('RSS Feed Content:', rssFeed);
 
-  fs.writeFileSync('feed.xml', rssFeed);
+  fs.writeFileSync('feed2.xml', rssFeed);
   console.log('RSS feed generated successfully!');
 }
 
