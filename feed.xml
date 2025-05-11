@@ -5,55 +5,55 @@
     <title>zkMessage RSS Feed</title>
     <link>https://explorer.zksync.io/address/0x5d89444f84d544deBbD13D672f314A4DfaE3f77C#events</link>
     <description>View events from zkMessage contract on zkSync</description>
-    <lastBuildDate>Sun, 11 May 2025 09:57:24 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 11 May 2025 10:25:09 GMT</lastBuildDate>
     
     <item>
       <title>Admin</title>
       <link>https://explorer.zksync.io/tx/0x2480ea9e50064433a55d0fe6bdafbf279ab15cefa7ab3ab03504275cb64938a7</link>
       <description>RSS is a Web content syndication format.</description>
-      <pubDate>Sun, 11 May 2025 09:57:24 GMT</pubDate>
+      <pubDate>Sun, 11 May 2025 10:25:09 GMT</pubDate>
     </item>
   
     <item>
       <title>Admin</title>
       <link>https://explorer.zksync.io/tx/0x66152bd69da73d7e6f4dab25217b89f0e6217d1c1c14facc41fc411f3a46f79f</link>
       <description>Onchain Governance</description>
-      <pubDate>Sun, 11 May 2025 09:57:24 GMT</pubDate>
+      <pubDate>Sun, 11 May 2025 10:25:09 GMT</pubDate>
     </item>
   
     <item>
       <title>Zeek</title>
       <link>https://explorer.zksync.io/tx/0xab9c64f5665c69bd4eb247b0112655aa88f1a87a2a0b28583490022df408dd33</link>
       <description>Zeek was here!</description>
-      <pubDate>Sun, 11 May 2025 09:57:24 GMT</pubDate>
+      <pubDate>Sun, 11 May 2025 10:25:09 GMT</pubDate>
     </item>
   
     <item>
       <title>Admin</title>
       <link>https://explorer.zksync.io/tx/0xb1fad6761db436aa04e8f07fd08f6b92bae55e1d57ba9cf2f4943f1f696c8331</link>
       <description>ZK is the Endgame</description>
-      <pubDate>Sun, 11 May 2025 09:57:24 GMT</pubDate>
+      <pubDate>Sun, 11 May 2025 10:25:09 GMT</pubDate>
     </item>
   
     <item>
       <title>Admin</title>
       <link>https://explorer.zksync.io/tx/0xbc03351306e0ae351a5867aa09b920403bf4f327a37a4ea2fd17937a69840a84</link>
       <description>Only the paranoid survive</description>
-      <pubDate>Sun, 11 May 2025 09:57:24 GMT</pubDate>
+      <pubDate>Sun, 11 May 2025 10:25:09 GMT</pubDate>
     </item>
   
     <item>
       <title>Admin</title>
       <link>https://explorer.zksync.io/tx/0xe38d7d24fb34fe2c0551547b16135844f01c7f71b8c3a6af0052f12e9970a033</link>
       <description>verify, don't trust</description>
-      <pubDate>Sun, 11 May 2025 09:57:24 GMT</pubDate>
+      <pubDate>Sun, 11 May 2025 10:25:09 GMT</pubDate>
     </item>
   
     <item>
       <title>Zeek</title>
       <link>https://explorer.zksync.io/tx/0x818838775017c103fdd4f617802e7dae79e181b045169ea508f25a37dd460de3</link>
       <description>Messenger role assigned.</description>
-      <pubDate>Sun, 11 May 2025 09:57:24 GMT</pubDate>
+      <pubDate>Sun, 11 May 2025 10:25:09 GMT</pubDate>
     </item>
   
   </channel>
